@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:text="@string/person"
+        android:gravity="center"
+        android:textColor="#141313"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/editprofile"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#858BC34A"
+        android:onClick="toeditprofile"
+        android:text="@string/editprofile" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#3C03A9F4"
+        android:onClick="help"
+        android:text="@string/help" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#36D31818"
+        android:onClick="logout"
+        android:text="@string/logout" />
+
+    <View
+        android:id="@+id/personview"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="20dp">
+    </View>
+
+
+    <TableRow
+        android:id="@+id/tableRow111"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#E200BCD4">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#00F8F2F2"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            android:onClick="tohomepage"/>
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/list_w2_24dp"
+            android:onClick="tojoblist"/>
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            android:onClick="tononticication"/>
+
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    </TableRow>
+</LinearLayout>

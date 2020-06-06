@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/tableRow126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/review"
+                android:textColor="#101010"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="129dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/ic_thumbs_up_down_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/b_review"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:text="@string/b_review"
+            android:textColor="#050000"
+            android:textSize="18sp" />
+
+
+        <RatingBar
+            android:id="@+id/RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="0.5"/>
+
+        <TextView
+            android:id="@+id/scoretext"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+             />
+
+        <TextView
+            android:id="@+id/w_review"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:text="@string/w_review"
+            android:textColor="#050000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/review"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:hint="@string/w_review"/>
+
+
+        <Button
+            android:id="@+id/savereview"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="#0C2CE1"
+            android:text="@string/savereview"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+
+
+    </LinearLayout>
+    <!--    </ScrollView>-->
+</LinearLayout>

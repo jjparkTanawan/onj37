@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">NannyService</string>
+    //login
+    <string name="appname">NANNY SERVICE</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="loginB">เข้าสู่ระบบ</string>
+    <string name="account">ยังไม่มีบัญชีผู้ใช้ใช่หรือไม่</string>
+    <string name="foegetpass">ลืมรหัสผ่าน?</string>
+    <string name="register">สมัครสมาชิก</string>
+
+    //register and editprofile for nanny and baby
+    <string name="craccount">บัญชีผู้ใช้ NANNY SERVICE</string>
+    <string name="editpic">เปลี่ยนรูปโปรไฟล์</string>
+    <string name="nannyname">ชื่อ-สกุล</string>
+    <string name="babyname">ชื่อ-สกุล(เด็ก)</string>
+    <string name="relative_name">ชื่อ-สกุล(ผู้ปกครอง)</string>
+    <string name="gender">เพศ</string>
+    <string name="age">อายุ</string>
+    <string name="agebaby">อายุ(เดือน)</string>
+    <string name="hitagebaby">เช่น 1ขวบ ใส่12 </string>
+    <string name="citizen">เลขที่บัตรประชาชน</string>
+    <string name="csds">โรคประจำตัว</string>
+    <string name="relative_as">เกี่ยวข้องเป็น</string>
+    <string name="tel">โทรศัพท์</string>
+    <string name="line">ไอดีไลน์</string>
+    <string name="email">อีเมล์</string>
+    <string name="location">ที่อยู่ใช้ในการรับบริการ</string>
+    <string name="addlocation">เพิ่มที่อยู่กดไอคอนขวามือ</string>
+    <string name="condition">เงื่อนไขเพิ่มเติม</string>
+    <string name="welfare">สวัสดิการ</string>
+    <string name="saveeditprofile">บันทึกช้อมูล</string>
+
+
+    //condition
+    <string name="c1">สุขภาพแข็งแรงไม่มีโรคติดต่อ</string>
+    <string name="c2">มีประสบการณ์ในการเลี้ยงดูเด็กมาก่อน</string>
+    <string name="c3">บุคลิกลักษณะและนิสัยใจคออ่อนโยน</string>
+    <string name="c4">รักสะอาด ละเอียด รอบคอบ ใจเย็น</string>
+    <string name="c5">ชอบอยู่กับเด็ก ชอบพูดคุยกับเด็ก</string>
+    <string name="c6">ทนเสียงเด็กร้องให้ได้</string>
+    <string name="c7">ไม่ทอดทิ้ง หรือ ทำร้ายร่างกายเด็ก</string>
+
+    //welfare
+    <string name="w1">อาหารเช้า</string>
+    <string name="w2">อาหารกลางวัน</string>
+    <string name="w3">อาหารเย็น</string>
+    <string name="w4">ค่าเดินทาง</string>
+
+    //notification
+    <string name="nontification">รายการคำร้อง</string>
+    <string name="withing">รอการตอบรับคำร้อง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="status2">เริ่มงาน</string>
+    <string name="status3">รอการตอบกลับ</string>
+    <string name="status4">ปฎิเสธคำร้อง</string>
+    <string name="status5">ยกเลิกคำร้อง</string>
+
+
+
+    //mode
+    <string name="mode">สถานะการทำงาน</string>
+    <string name="start">เปิด/ปิด การทำงาน</string>
+
+    //joblist
+    <string name="joblist">รายการเด็กในการเลี้ยงดู</string>
+    <string name="endjob">สิ้นสุดการเลี้ยงดู</string>
+    <string name="getreview">ให้รีวิวและคะแนนความนิยม</string>
+
+
+    //jobprofilelist
+    <string name="profile">โปรไฟล์</string>
+    <string name="listmemo">รายการบันทึกความทรงจำ</string>
+
+    //memo
+    <string name="memo">บันทึกความทรงจำ</string>
+    <string name="date">วันที่</string>
+    <string name="detail">ข้อมูล</string>
+    <string name="savememo">บันทึกข้อมูล</string>
+
+
+    //person
+    <string name="person">ชื่อผู้ใช้</string>
+    <string name="editprofile">แก้ไขโปรไฟล์</string>
+    <string name="help">ช่วยเหลือ</string>
+    <string name="logout">ออกจากระบบ</string>
+
+    // home for baby
+    <string-array name="club">
+        <item>โปรไฟล์ทั้งหมด</item>
+        <item>ระยะทาง</item>
+        <item>คะแนนความนิยม</item>
+    </string-array>
+
+    <string-array name="club2">
+        <item>ระยะทาง</item>
+        <item>คะแนนความนิยม</item>
+        <item>โปรไฟล์ทั้งหมด</item>
+    </string-array>
+
+    <string-array name="club3">
+        <item>คะแนนความนิยม</item>
+        <item>โปรไฟล์ทั้งหมด</item>
+        <item>ระยะทาง</item>
+    </string-array>
+
+    //review for baby
+    <string name="review">รีวิวและให้คะแนนความนิยม</string>
+    <string name="w_review">เขียนรีวิว</string>
+    <string name="b_review">กดให้คะแนนความนิยม</string>
+    <string name="savereview">ให้คะแนน</string>
+
+    //seedata_listdata
+    <string name="requst">ส่งคำร้องขอรับการเลี้ยงดู</string>
+    <string name="seereview">รีวิว และ คะแนนความนิยม</string>
+    <string name="daterequst">วัน/เดือน/ปี</string>
+    <string name="timerequst">เวลา</string>
+
+
+
+    //cometoregister
+    <string name="choose">สมัครสมาชิกสำหรับ</string>
+    <string name="chooseNanny">ผู้ปกครอง</string>
+    <string name="chooseBaby">พี่เลี้ยงเด็ก</string>
+    <string name="backlogin">มีบัญชีผู้ใช้แล้วใช่หรือไม่ สมัครสมาชิก</string>
+
+    //help
+    <string name="helpcenter">ศูนย์ให้ความช่วยเหลือ</string>
+    <string name="helpcenterphone">โทร : 0897346965</string>
+    <string name="helpcentermail">email:tanawanfornanny@gmail.com</string>
+    <string name="helpcenterline">line : jjpark</string>
+
+
+
+
+</resources>

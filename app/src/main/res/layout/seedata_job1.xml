@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itemjoblist1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/tableRow126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/craccount"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="70dp"
+                    android:text="@string/craccount"
+                    android:textColor="#1026A3"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="129dp"
+                android:layout_height="116dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="120dp"
+                app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"/>
+
+            <TextView
+                android:id="@+id/name22"
+                android:layout_width="300dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:text="@string/nannyname"
+                android:textColor="#5B131212"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#090909"
+                android:textSize="16sp" />
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/citizen22"
+                    android:layout_width="155dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:text="@string/citizen"
+                    android:textColor="#5B131212"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/age22"
+                    android:layout_width="155dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:text="@string/age"
+                    android:textColor="#5B131212"
+                    android:textSize="12sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/citizen"
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#070707"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#0B0A0A"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/phone22"
+                    android:layout_width="155dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:text="@string/tel"
+                    android:textColor="#5B131212"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/line22"
+                    android:layout_width="155dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:text="@string/line"
+                    android:textColor="#5B131212"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textColor="#070000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#070707"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="230dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#14C9C5C5"
+                    android:hint="@string/addlocation"
+                    android:textColor="#FA141414"/>
+
+                <ImageButton
+                    android:id="@+id/buttonGetCurrentLocation"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="#D9EDF0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/ic_place_black_24dp"/>
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="#1400BCD4"
+                android:text="@string/condition"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:text="@string/c1"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:text="@string/c2"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:text="@string/c3"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:text="@string/c4"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:text="@string/c5"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:text="@string/c6"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:text="@string/c7"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="#1400BCD4"
+                android:text="@string/welfare"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp" />
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:text="@string/w1"
+                    android:layout_width="125dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="15dp" />
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:text="@string/w2"
+                    android:layout_width="125dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:text="@string/w3"
+                    android:layout_width="125dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="15dp" />
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:text="@string/w4"
+                    android:layout_width="125dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp" />
+
+            </TableRow>
+
+
+            <Button
+                android:id="@+id/review"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="40dp"
+                android:background="#081E96"
+                android:text="@string/review"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/endjob"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="#E80A25"
+                android:text="@string/endjob"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

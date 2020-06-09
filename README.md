@@ -11,13 +11,16 @@ Application For Matching Nanny
 ├───exam
 │   └───62onj37_exam.mp4
 │   └───62onj37_exam.png
+├───demo
+│   └───62onj37_demo.mp4
 └───src
-        └───Nanny
+     └───Nanny
 
 ```
 * รายละเอียดโฟลเดอร์
   * doc : เก็บไฟล์รายงานฉบับสมบูรณ์ไว้ใน 62onj37.doc บทคัดย่อไทยไว้ใน 62onj37_abstract_th.txt บทคัดย่อภาษาอังกฤษไว้ใน 62onj37_abstract_en.txt
   * exam : เก็บไฟล์คลิปวีดีโอการสอบ ไว้ใน 62onj37_exam.mp4 และไฟล์รูปภาพการสอบ เก็บไว้ใน 62onj37_exam.png
+  * demo : เก็บไฟล์สาธิตการติดตั้งระบบอย่างละเอียด
   * src : เก็บ Code ทั้งหมดไว้ใน Folder Nanny 
   
 * วิธีการติดตั้ง
